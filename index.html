@@ -1,0 +1,85 @@
+<!--    Create a new website using HTML and Bootstrap. 
+    The website must include the following:
+        At least 2 pages.
+        A Bootstrap navbar, table, and form.
+        Bootstrap grid used throughout to format elements
+        Elements should stack vertically when the window is smol-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 | Bootstrap Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NavBar -->
+
+
+    <!-- Grid, should stack vertically when window is smol -->
+    <!-- EVERYTHING SHOULD BE WITHIN THE GRID -->
+    <!-- maybe use a col-4 col-8 to make a simple side bar? -->
+    <!-- using custom CSS class named style -->
+    <div class="container style">
+        <div class="row style">
+            <div class="col style">
+                Header
+            </div>
+        </div>
+        <div class="row style">
+            <div class="col-sm style">
+                content
+            </div>
+            <div class="col-sm style">
+                content
+            </div>
+            <div class="col-sm style">
+                content
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Table -->
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <th>Gunnar</th>
+                        <th>Russell</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Kandra</th>
+                        <th>Harper</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Milo</th>
+                        <th>the Dog</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Form -->
+        <form>
+            
+        </form>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
