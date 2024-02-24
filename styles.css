@@ -1,7 +1,12 @@
+body
+{
+    background-color: rgb(246, 246, 246)
+}
+
 .style
 {
-    text-align:center;
-    border-style: none;
+    text-align: center;
+    border-style: solid;
     border-width: 1px;
     border-color: rgb(197, 197, 197);
 }
