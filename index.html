@@ -16,7 +16,24 @@
 </head>
 <body>
     <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!-- "Brand" -->
+        <a class="navbar-brand" href="#" id="brand">Milo</a>
+        <!-- collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- inside the navbar collapse (or navbar when not collapsed) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- add list of links here -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Grid, should stack vertically when window is smol -->
     <!-- EVERYTHING SHOULD BE WITHIN THE GRID -->
@@ -72,14 +89,40 @@
             </table>
         </div>
 
+        <br>
+
         <!-- Form -->
         <form>
-            
+            <h1>Schedule a meeting:</h1>
+            <!-- using grid to center, probably a better way -->
+            <div class="row">
+                <!-- empty left column -->
+                <div class="col-3"></div>
+                <!-- middle column -->
+                <div class="col-6 card-style">
+                    <div class="row style">
+                        <div class="col-sm style">
+                            <input type="date" class="w-100 text-center">
+                        </div>
+                        <div class="col-sm style">
+                            <input type="time" class="w-100 text-center">
+                        </div>
+                    </div>
+                    <div class="row style">
+                        <div class="col style">
+                            <input type="text" name="text-input" placeholder="Enter a comment..." class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <!-- empty left column -->
+                <div class="col-3"></div>
+            </div>
         </form>
 
     </div>
 
+    <!-- dependencies -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/jquery/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

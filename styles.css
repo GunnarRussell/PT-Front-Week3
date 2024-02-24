@@ -1,7 +1,26 @@
 .style
 {
     text-align:center;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
-    margin: 2px;
+    border-color: rgb(197, 197, 197);
+}
+
+.card-style
+{
+    background-color: rgb(52, 58, 64);
+    border-radius: 3px;
+}
+
+#brand
+{
+    font-family: 'CherrySwash';
+    font-size:x-large;
+    color: white;
+}
+
+@font-face
+{
+    font-family: CherrySwash;
+    src: url(fonts/CherrySwash-Bold.ttf);
 }
