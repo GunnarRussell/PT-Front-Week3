@@ -38,15 +38,14 @@
                     </ul>
                 </div>
             </nav>
-        
-            <!-- Grid, should stack vertically when window is smol -->
-            <!-- EVERYTHING SHOULD BE WITHIN THE GRID -->
-            <!-- maybe use a col-4 col-8 to make a simple side bar? -->
-            <!-- using custom CSS class named style -->
-            <div class="container style">
-                <div class="row style">
-                <!-- Table -->
-                    <div class="table-responsive">
+            <br>
+
+            <!-- Content Container -->
+            <div class="container">
+                <div class="row">
+
+                    <!-- Table -->
+                    <div class="table-responsive text-center">
                         <table class="table table-striped table-hover">
                             <thead class="thead-dark">
                                 <tr>
@@ -75,28 +74,34 @@
                         </table>
                     </div>
                 </div>
-                <div class="row style justify-content-center">
+
+                <br>
+
+                <div class="row justify-content-center">
                     <!-- Form -->
                     <form>
                         <div class="card-style">
-                            <h1>Schedule a meeting:</h1>
-                            <!-- using grid to center, probably a better way -->
-                            <!-- middle column -->
-                            
-                                <div class="row style">
-                                    <div class="col-sm style">
-                                        <input type="date" class="w-100 text-center">
-                                    </div>
-                                    <div class="col-sm style">
-                                        <input type="time" class="w-100 text-center">
-                                    </div>
+                            <h5>Is Milo not coming to a town near you?</h5>
+                            <h1>Schedule a stop!</h1>                          
+                            <div class="row">
+                                <div class="col">
+                                    <input type="date" class="w-100 text-center">
                                 </div>
-                                <div class="row style">
-                                    <div class="col style">
-                                        <input type="text" name="text-input" placeholder="Enter a comment..." class="w-100">
-                                    </div>
+                                <div class="col">
+                                    <input type="time" class="w-100 text-center">
                                 </div>
-                            
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <!-- <input type="text" name="text-input" placeholder="Enter a comment..." class="w-100"> -->
+                                    <textarea class="w-100">Enter a comment...</textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-outline-light btn-block">Schedule!</button>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
