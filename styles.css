@@ -3,6 +3,11 @@ body
     background-color: rgb(246, 246, 246)
 }
 
+.table>tbody>tr>td
+{
+    vertical-align: middle;
+}
+
 .border-style
 {
     text-align: center;
